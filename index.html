@@ -11,26 +11,25 @@
 </head>
 <body>
   <div class="wrapper">
-    <h1>What are you eating?</h1>
+    <h1>NutriScanner!</h1>
     <h2>Snap a photo of your food & upload for a nutritional breakdown.</h2>
 
     <form action="#">
       <input type="file" id="filename" placeholder="Filename" size="100"/>
-      <button onclick="predict_click($('#filename').val(), 'file'); return false;">Get my Nutritional Breakdown!</button>
+      <button onclick="predict_click($('#filename').val(), 'file'); return false;">Let's find out what this food is made of!</button>
     </form>
 
     <div id="predictions">
       <div class="food-photo">
-        <div class="step"><span>1</span> Upload a Photo</div>
+        <div class="step"><span>1</span> Upload a picture.</div>
       </div>
       <div class="nutrition">
-        <div class="step"><span>2</span> Get a Nutritional Breakdown</div>
+        <div class="step"><span></span> Get an ingredient and nutritional breakdown of your food.</div>
         <div id="concepts"></div>
       </div>
     </div>
 
     <div class="powered-by">
-      <p>Inspired by <a href="https://devpost.com/software/munch-emsv0u">Munch</a>.  Powered by <img src="https://clarifai.com/static/images/logo.png" alt="Clarifai" />.</p>
     </div>
   </div>
 </body>
