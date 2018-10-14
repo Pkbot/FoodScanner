@@ -34,7 +34,9 @@ function predict_click(value, source) {
         for(var i = 0; i < response.rawData.outputs[0].data.concepts.length; i++)
         {
           var a = response.rawData.outputs[0].data.concepts[i].name;
-          html += a + "<br/>";
+          var b = response.rawData.outputs[0].data.concepts[i].value * 100;
+          var rounded_b = Math.round(b);
+          html += a + " " + rounded_b  + "% "+ "<br/>";
         }
         demoP.innerHTML = html;
       }
