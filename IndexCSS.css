@@ -1,15 +1,16 @@
 html, body {
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   height: 100%;
-  background: #355C7D;
+  background: #55327A;
 }
 
 .wrapper {
-  background: #fff;
+  background: #f6f6f6;
   border-radius: 70px;
   margin: 60px auto;
   padding: 30px;
-  width: 650px;
+  width: 1000px;
+  height: 1400px;
 }
 
 .wrapper h1,
@@ -30,36 +31,34 @@ html, body {
 }
 
 .wrapper form button {
-  background: #F67280;
-  border-color: #F67280;
+  background: #6D065A;
+  border-color: #6D065A;
   border-radius: 5px;
-  color: #fff;
+  color: white;
   display: block;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 1rem;
   font-weight: bold;
   margin: 1rem auto;
   padding: 1rem;
-  width: 100%;
+  width: 30%;
 }
 
 #predictions .food-photo,
 #predictions .nutrition {
-  background: #F8B195;
+  background: #FFCAD4;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  float: left;
   margin: 1rem auto;
-  min-height: 370px;
+  height: 500px;
   padding-top: 25px;
   position: relative;
   text-align: center;
-  width: 50%;
 }
 
 #predictions .step {
-  color: #fff;
+  color: black;
   font-size: 0.875rem;
   left: 0.5rem;
   line-height: 1rem;
@@ -87,13 +86,14 @@ html, body {
 }
 
 #predictions .nutrition {
-  background: #f6f6f6;
-  float: right;
+  background: #FFD7D5;
+  
 }
 
 #predictions #concepts h3 {
   margin: 0.25rem;
 }
+
 
 #predictions #concepts img {
   display: block;
@@ -118,4 +118,3 @@ html, body {
 }
 
 .powered-by img { height: 1rem; }
-
