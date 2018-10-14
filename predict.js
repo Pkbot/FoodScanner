@@ -1,5 +1,3 @@
-import './IndexCSS.css'
-
 var myClarifaiApiKey = a9230f9bc6414ec59a1b088cbc1129d1;
 var myWolframAppId = aEHH675-RTHVYQX32L;
 
