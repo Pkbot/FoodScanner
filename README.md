@@ -1,4 +1,4 @@
-# NutriScanner!
-NutriScanner! is a web application that scans a food picture uploaded by the user and tells them the ingredients in it along with the nutritional content. 
+# Food Scanner!
+Food Scanner! is a web application that allows users to upload an image of their food and returns a list of its ingedients, allowing them to identify potentially hazardous ingredients that could trigger allergies or other ingredients in dietary restrictions.
 
 This application has been made at MHacks 11 with the help of Clarifai's food model and the Wolfram Alpha API. 
