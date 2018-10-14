@@ -36,7 +36,7 @@ function predict_click(value, source) {
           var a = response.rawData.outputs[0].data.concepts[i].name;
           var b = response.rawData.outputs[0].data.concepts[i].value * 100;
           var rounded_b = Math.round(b);
-          html += a + " " + rounded_b  + "% "+ "<br/>";
+          html += a + "&emsp;" + rounded_b  + "% "+ "<br/>";
         }
         demoP.innerHTML = html;
       }
