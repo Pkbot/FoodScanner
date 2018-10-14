@@ -31,7 +31,7 @@ function predict_click(value, source) {
       var html = "";
       if(response.rawData.outputs[0].data.hasOwnProperty("concepts")) {
         var tag = response.rawData.outputs[0].data.concepts[0].name;
-        for(var i= 0; i < response.rawData.outputs[0].data.concepts.length; i++)
+        for(var i = 0; i < response.rawData.outputs[0].data.concepts.length; i++)
         {
           var a = response.rawData.outputs[0].data.concepts[i].name;
           html += a + "<br/>";
