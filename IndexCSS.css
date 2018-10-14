@@ -1,12 +1,12 @@
 html, body {
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   height: 100%;
-  background: #FCF5E8;
+  background: #355C7D;
 }
 
 .wrapper {
   background: #fff;
-  border-radius: 5px;
+  border-radius: 70px;
   margin: 60px auto;
   padding: 30px;
   width: 650px;
@@ -30,9 +30,9 @@ html, body {
 }
 
 .wrapper form button {
-  background: #2ABEB3;
-  border-color: #2ABEB3;
-  border-radius: 3px;
+  background: #F67280;
+  border-color: #F67280;
+  border-radius: 5px;
   color: #fff;
   display: block;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
@@ -40,12 +40,12 @@ html, body {
   font-weight: bold;
   margin: 1rem auto;
   padding: 1rem;
-  width: 60%;
+  width: 100%;
 }
 
 #predictions .food-photo,
 #predictions .nutrition {
-  background: #F0DD5C;
+  background: #F8B195;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -87,7 +87,7 @@ html, body {
 }
 
 #predictions .nutrition {
-  background: #F16568;
+  background: #f6f6f6;
   float: right;
 }
 
@@ -113,7 +113,9 @@ html, body {
 
 .powered-by {
   font-style: italic;
+  color: #fff;
   text-align: center;
 }
 
 .powered-by img { height: 1rem; }
+
